@@ -1,0 +1,189 @@
+{
+  "services": [
+    {
+      "title": "Conference hall",
+      "body": "This branding expert does two things incredibly well on his about page: He takes his work seriously without taking himself too seriously. Marketers know there's value to keeping a casual tone in the content they create, but to attract customers, you need to prove you have discipline and integrity. This often proves to be a tough balance to get right.",
+      "supervisor": "Jembe",
+      "id": "1"
+    },
+    {
+      "title": " photoshoot",
+      "body": "This branding expert does two things incredibly well on his about page: He takes his work seriously without taking himself too seriously. Marketers know there's value to keeping a casual tone in the content they create, but to attract customers, you need to prove you have discipline and integrity. This often proves to be a tough balance to get right.",
+      "supervisor": "Shoka",
+      "id": "2"
+    },
+    {
+      "title": "Food and Beverages",
+      "body": "This branding expert does two things incredibly well on his about page: He takes his work seriously without taking himself too seriously. Marketers know there's value to keeping a casual tone in the content they create, but to attract customers, you need to prove you have discipline and integrity. This often proves to be a tough balance to get right.",
+      "supervisor": "Nyundo",
+      "id": "3"
+    },
+    {
+      "title": "Room",
+      "body": "People want to know what your business does and how it can help them. After all, if people can't figure out what you do, how will they know they need your product or service?So, skip the industry lingo — that's what Apptopia does on its About Us page. The startup's simple but polished language effectively communicates the company's offering while still allowing the Average Joe to understand it.",
+      "supervisor": "Kotama",
+      "id": "4"
+    },
+    {
+      "title": "Touarism package",
+      "body": "This branding expert does two things incredibly well on his about page: He takes his work seriously without taking himself too seriously. Marketers know there's value to keeping a casual tone in the content they create, but to attract customers, you need to prove you have discipline and integrity. This often proves to be a tough balance to get right.",
+      "supervisor": "Jembe",
+      "id": "5"
+    }
+  ],
+
+  "feedback": [
+    {
+      "username": "buda",
+      "email": "maliberry7@gmail.com",
+      "service": "photoshoot",
+      "subject": "Good service",
+      "details": "I enjoyed every moment at your hotel",
+      "supervisor": "Jembe",
+      "id": "1"
+    },
+    {
+      "username": "london",
+      "email": "link.star@gmail.com",
+      "service": "Room",
+      "subject": "Good hospitality",
+      "details": "I enjoyed every moment at your hotel",
+      "supervisor": "Jembe",
+      "id": "2"
+    },
+    {
+      "username": "Mole",
+      "email": "bado@gmail.com",
+      "service": "Conference hall",
+      "subject": "Nice atmosphere",
+      "details": "I enjoyed every moment at your hotel",
+      "supervisor": "Jembe",
+      "id": "3"
+    },
+    {
+      "username": "Bora",
+      "email": "New.k@gmail.com",
+      "service": "photoshoot",
+      "subject": "your the best",
+      "details": "I enjoyed every moment at your hotel",
+      "supervisor": "Nyundo",
+      "id": "4"
+    },
+    {
+      "username": "John",
+      "email": "copy@gmail.com",
+      "service": "Food and bevarages",
+      "subject": "Good hospitality",
+      "details": "I enjoyed every moment at your hotel",
+      "supervisor": "Jembe",
+      "id": "5"
+    },
+    {
+      "username": "Malius Martin",
+      "email": "maliberry7@gmail.com",
+      "subject": "Booking",
+      "details": "Am asking if its possible to get two rooms from 1 nov to 10 nov 2022",
+      "supervisor": "Nyundo",
+      "id": "6"
+    },
+    {
+      "username": "Steve",
+      "email": "steve@yahoo.com",
+      "subject": "asking for a price ",
+      "details": "can you send menu available with the prices ",
+      "supervisor": "Shoka",
+      "id": "7"
+    },
+    {
+      "username": "allan",
+      "email": "allan@gmail.com",
+      "subject": "price and package",
+      "details": "tell me which national parks and game reserves are in your packages",
+      "supervisor": "Nyundo",
+      "id": "8"
+    },
+    {
+      "username": "Rick ",
+      "email": "ric@hotmail.com",
+      "subject": "location price",
+      "details": "asking for a price of photo shoot",
+      "supervisor": "Shoka",
+      "id": "9"
+    },
+    {
+      "username": "flora",
+      "email": "flora@outlook.com",
+      "subject": "price ",
+      "details": "wish to use your conference hall, asking for a price of 3 days",
+      "supervisor": "Jembe",
+      "id": "10"
+    },
+    {
+      "username": "tanpol",
+      "email": "tanpol@go.tz",
+      "subject": "requesting a conference",
+      "details": "discount of a conference hall",
+      "supervisor": "Shoka",
+      "id": "11"
+    },
+    {
+      "username": "tanpol",
+      "email": "tanpol@go.tz",
+      "subject": "requesting a conference",
+      "details": "discount of a conference hall",
+      "supervisor": "Shoka",
+      "id": "12"
+    },
+    {
+      "username": "henrick",
+      "email": "henrick@gmail.com",
+      "subject": "Yeah ",
+      "details": "am here for good service",
+      "supervisor": "Shoka",
+      "id": "13"
+    },
+    {
+      "username": "henrick",
+      "email": "henrick@gmail.com",
+      "subject": "Yeah ",
+      "details": "am here for good service",
+      "supervisor": "Shoka",
+      "id": "14"
+    },
+    {
+      "username": "Marioo",
+      "email": "marioo@gmail.com",
+      "subject": "health ",
+      "details": "asking for health insuarances",
+      "supervisor": "Jembe",
+      "id": "15"
+    },
+    {
+      "username": "Marioo",
+      "email": "marioo@gmail.com",
+      "subject": "health ",
+      "details": "asking for health insuarances",
+      "supervisor": "Jembe",
+      "id": "16"
+    },
+    {
+      "username": "maron",
+      "email": "maro@yahoo.com",
+      "subject": "price",
+      "details": "asking for a price of photoshoot, and conference with discount",
+      "supervisor": "Jembe",
+      "id": "cTTGuTh"
+    }
+  ],
+  "booking": [
+    {
+      "firstname": "henrick",
+      "secondname": "Bora",
+      "sirname": "Steve",
+      "email": "henrick@gmail.com",
+      "phone": "0658985845",
+      "days": "2",
+      "date": "10/11/2022"
+    }
+  ]
+}

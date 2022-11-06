@@ -1,0 +1,383 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+:root{
+  --background: #ffffff;
+  --text-primary: #000;
+  --text-secondary: rgb(223, 22, 180);
+--accent:rgb(22, 216, 223);
+--icon:#000;
+--footer:#5050b3;
+
+}
+
+[data-theme='dark']{
+  --background: #000;
+  --text-primary:    #ffffff ;
+  --text-secondary: rgb(20, 34, 230);
+  --accent:rgb(22, 216, 223);
+  --icon:#fff;
+  --footer: #9191be;
+}
+
+a{
+  color: var(--text-primary);
+}
+h1,h2, label{
+  color: var(--text-primary);
+}
+p{
+  color: var(--text-primary);
+}
+
+.app{
+  background-color: var(--background);
+color: var(--text-primary);
+}
+
+
+
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+
+
+
+/* Navigation Bar */
+
+.navbar {
+
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+.navbar h1 {
+  color: var(--text-primary);
+ 
+}
+.navbar .links {
+  margin-left: auto;
+}
+.links a{
+  background: var(--footer);
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #f1356d;
+}
+.content {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.Home {
+  background-image: url(./Images/gsshotel.PNG);
+  height: 114vh;
+  border-radius: 3rem;
+}
+.Home h2{ 
+  padding-left: 200px;
+}
+
+ .description{
+  padding: 10px;
+ 
+}
+
+
+
+/* services page */
+.booking{
+  background-image: url(./Images/food.webp);
+  width: 800px;
+  height: 100vh;
+  border-radius: 2rem;
+  justify-content: center;
+}
+.booking h1{
+  justify-content: center;
+  align-items: center;
+  padding-left: 200px;
+  color: #f1356d;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+/* services  page */
+.service-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.service-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.service-preview h2 {
+  font-size: 20px;
+  color: #664ab6;
+  margin-bottom: 8px;
+}
+.menu-bars{
+  color: #f1356d;
+}
+.footer{
+  height: 80px;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--footer);
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.footer p{
+  text-align: center;
+  color: white;
+  display:  inline;
+ 
+}
+.Quick-link{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  padding-bottom: 2px;
+}
+
+
+.sidebar div{
+  max-width: 180px;
+  align-items: left;
+  
+}
+
+
+/* service details page */
+.service-details h2 {
+  font-size: 20px;
+  color: #5e68a0;
+  margin-bottom: 10px;
+}
+.service-details div {
+  margin: 20px 0;
+}
+.service-details button {
+  background: #5f3341;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+
+/* create new feedback form */
+.feedback {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.feedback label {
+  text-align: left;
+  display: block;
+}
+.feedback h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+.feedback input, .feedback textarea, .feedback select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+  color: var(--text-secondary);
+}
+.feedback button {
+  background: var(--footer);
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+
+/* contact  and Loaction page */
+.contact {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.location{
+  justify-content: center;
+}
+
+.media{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  padding-bottom: 2px;
+}
+article p{
+padding: 2px;
+}
+.location{
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 20px;
+}
+.review{
+  padding-top: 20px;
+}   
+.comment:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+.container{
+  display: flex;
+  padding-bottom: 300px;
+}
+main{
+  width: 100%;
+  padding: 20px;
+}
+
+
+
+
+/* 
+sidebar style */
+.sidebar{
+  position: fixed;
+
+background: var(--footer);
+color: #fff;
+height: 200vh;
+}
+.top_section{
+  display: flex;
+  align-items: center;
+  padding: 20px 15px;
+}
+.logo{
+  font-size: 30px;
+}
+.bars{
+  display: flex;
+  font-size: 25px;
+  margin-left: 30px;
+  color: #fff;
+  
+}
+.link{
+  display: flex;
+  color: #fff;
+  padding:10px 15px;
+  gap: 15px;
+  transition: all 0.5s;
+}
+.link:hover{
+  background: lightskyblue;
+  color: #fff;
+}
+
+
+/* Change theme styling */
+.toggle-theme{
+  justify-content: right;
+  padding-left: 20px;
+  font-size: small;
+  display: flex;
+  font-family: "Quicksand";
+ font-weight: lighter;
+ gap: 10px;
+ cursor: pointer;
+}
+
+
+
+
+
+
+
+/* Booking-form  */
+
+.popup{
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.2);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.popup-inner{
+  position: relative;
+  padding: 32px;
+  width: 100%;
+  max-width: 640px;
+  background-color: var(--background);
+
+
+}
+.popup-inner .close-btn{
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+
+
+
+/* Booking information */
+
+.booking-info input{
+  width: 100%;
+  padding: 4px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+  color: var(--text-secondary);
+}
+.booking-info label{
+  color: var(--text-primary);
+  
+}
+.booking-info button{
+  justify-content: center;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.booking-info .bt{
+  justify-content: center;}
+
+
+/* .Home{
+
+} */
+
+
+.pic{
+  width: 100;
+  height: 100;
+  justify-content: center;
+
+}
