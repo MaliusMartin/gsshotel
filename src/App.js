@@ -32,13 +32,13 @@ setTheme(newTheme)
 <div className="app" data-theme={theme} >
 
   
-      <Navbar/>
+      <div className="top"><Navbar/>
       
       <div className="toggle-theme" >
                     <p  >Change Theme</p>          
                     
 <FaToggleOn onClick={switchTheme} size="2em"/>
-                </div>
+                </div></div>
                 
 
 

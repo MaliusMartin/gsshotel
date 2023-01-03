@@ -12,7 +12,7 @@
 }
 
 [data-theme='dark']{
-  --background: #000;
+  --background: rgb(136, 130, 130);
   --text-primary:    #ffffff ;
   --text-secondary: rgb(20, 34, 230);
   --accent:rgb(22, 216, 223);
@@ -48,13 +48,22 @@ color: var(--text-primary);
 /* Navigation Bar */
 
 .navbar {
-
+ 
+justify-content: right;
   padding: 20px;
   display: flex;
   align-items: center;
-  max-width: 800px;
-  margin: 0 auto;
-  border-bottom: 1px solid #f2f2f2;
+  margin-left: 400px;
+  
+  
+  
+}
+.top{
+  justify-content: center;
+  position: fixed;
+  /* border-bottom: 1px solid #f2f2f2; */
+ display: flex; 
+ max-width: 1800px;
 }
 .navbar h1 {
   color: var(--text-primary);
@@ -75,13 +84,13 @@ color: var(--text-primary);
   color: #f1356d;
 }
 .content {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 40px auto;
   padding: 20px;
 }
 
 .Home {
-  background-image: url(./Images/gsshotel.PNG);
+  /* background-image: url(./Images/gsshotel.PNG); */
   height: 114vh;
   border-radius: 3rem;
 }
@@ -90,8 +99,16 @@ color: var(--text-primary);
 }
 
  .description{
-  padding: 10px;
+  padding: 20px;
+  display: flex;
+  gap: 30px;
  
+}
+.description img{
+  max-width: 500px;
+  height: 300px;
+border-radius: 2rem;
+
 }
 
 
@@ -100,7 +117,7 @@ color: var(--text-primary);
 .booking{
   background-image: url(./Images/food.webp);
   width: 800px;
-  height: 100vh;
+  height: 150vh;
   border-radius: 2rem;
   justify-content: center;
 }
@@ -132,12 +149,13 @@ color: var(--text-primary);
   color: #f1356d;
 }
 .footer{
-  height: 80px;
+  height: 120px;
   align-items: center;
   justify-content: center;
   background-color: var(--footer);
-  margin-left: 200px;
-  margin-right: 200px;
+  margin-left: 20px;
+  margin-right: 0px;
+  position: static;
 }
 .footer p{
   text-align: center;
@@ -244,8 +262,11 @@ padding: 2px;
 .review{
   padding-top: 20px;
 }   
+/* .comment-preview{
+  display: grid;
+} */
 .comment:hover {
-  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+  box-shadow: 5px 3px 5px rgba(0,0,0,0.1);
 }
 .container{
   display: flex;
@@ -255,6 +276,27 @@ main{
   width: 100%;
   padding: 20px;
 }
+
+/* media query */
+/* @media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+} */
+
+
 
 
 

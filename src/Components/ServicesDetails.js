@@ -23,11 +23,11 @@ const ServicesDetails = () => {
         const booking = {firstname, secondname, sirname, email,phone, days, date,}
       isPending(true);
       fetch('http://localhost:8000/booking', {
-method:'POST',
-headers:{'content-Type':'application/json'},
-body: JSON.stringify(booking)
-}).then(()=>{
-console.log('Booking submited')
+        method:'POST',
+        headers:{'content-Type':'application/json'},
+        body: JSON.stringify(booking)
+        }).then(()=>{
+        console.log('new comment added')
 
 
 setIsPending(false)

@@ -23,8 +23,8 @@ const Contact = () => {
 
 <div className="location">
     <h2>Location</h2>
-    {/* <iframe style={{width: "600px", height: "500px", justifyContent: "center"}} id="gmap_canvas" src="https://maps.google.com/maps?q=Gss%20hotel%20karagwe&t=k&z=19&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
-     */}
+    <iframe style={{width: "600px", height: "500px", justifyContent: "center"}} title="The Location of GSS hotel" id="gmap_canvas" src="https://maps.google.com/maps?q=Gss%20hotel%20karagwe&t=k&z=19&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+    
 </div>
         </div>
         

@@ -3,6 +3,7 @@
 // import useFetch from '../useFetch';
 
 // const foodpic = new URL("../Images/food.webp",import.meta.url)
+   const bulb = new URL("../Images/gsshotel.PNG", import.meta.url)
 const Home = () => {
  
 
@@ -23,7 +24,9 @@ const Home = () => {
     return (
         <div className='Home'>
             <h2>Homepage </h2>
+            <div> </div>
             <div className="description">
+                <div><img src={bulb} alt="home pic"/></div>
             <p>What's the difference between "average" marketing and lovable marketing? It's the difference between creating generic webpages that provide great information, but in a straightforward, black-and-white kind of way — versus creating webpages that provide great information and are infused with color, personality, and stay true to a company's unique brand voice. When you create lovable marketing, you can start a movement of brand evangelists and advocates who will help you grow.
 
 Where does this fit into a company's About Us page? The folks at Bulldog, a men's skincare company that was named for the colloquial "man's best friend" — a dog — could have typed up a few paragraphs about where the brand came from and how it was one of the first in the space to redefine and eliminate stereotypes around men's grooming. But that text alone would have been a bit, well, average.
